@@ -84,7 +84,7 @@
             items: 1,
             autoHeight: true,
             mouseDrag: true,
-            touchDrag: true
+            touchDrag: false
           },
           1050: {
             items: 3,
