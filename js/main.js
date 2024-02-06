@@ -77,7 +77,7 @@
 	      0: {
             items: 1,
             autoHeight: true,
-            mouseDrag: false,
+            mouseDrag: true,
             touchDrag: true
           },
           600: {
