@@ -65,6 +65,8 @@
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
 	    loop:false,
+	mouseDrag: true,
+        touchDrag: false,
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
@@ -77,14 +79,14 @@
 	      0: {
             items: 1,
             autoHeight: true,
-            mouseDrag: true,
-            touchDrag: false
+            mouseDrag: false,
+            touchDrag: true
           },
           600: {
             items: 1,
             autoHeight: true,
-            mouseDrag: true,
-            touchDrag: false
+            mouseDrag: false,
+            touchDrag: true
           },
           1050: {
             items: 3,
